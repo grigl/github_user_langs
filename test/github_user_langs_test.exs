@@ -3,6 +3,6 @@ defmodule GithubUserLangsTest do
   doctest GithubUserLangs
 
   test "greets the world" do
-    assert GithubUserLangs.get("grigl") == ["JavaScript", "Ruby"]
+    assert GithubUserLangs.get("grigl") == ["JavaScript", "Ruby", "Elixir"]
   end
 end
